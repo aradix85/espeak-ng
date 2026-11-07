@@ -203,6 +203,11 @@ test_phon fr "dY mil v'E~" "2020"
 # https://github.com/espeak-ng/espeak-ng/issues/1271
 test_phon en "f'u:" "foo.."
 
+# Dutch imperatives of separable verbs: the particle is stressed, also when more words follow
+test_phon nl "l,Ox 'In_! mEt j@ n'a:m" "Log in met je naam."
+test_phon nl "sx,a:k@l 'Wyt" "Schakel uit."
+test_phon nl "st,El 'In v'ia: h@t m@n'y" "Stel in via het menu."
+
 # note 0xad between "ignoring" and "u+ad" there's a 0xad. It is not a whitespace
 test_phon en "Ign'o@rINg,u: pl'Vs 'ad" "Ignoring­u+ad"
 # note 0x200c between 1 and 1

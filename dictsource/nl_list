@@ -195,6 +195,19 @@ een	e:n	$atend
 (een of)	e:n||Of
 (een van)	e:n||vAn
 
+// imperatives of separable verbs common in user interfaces: the particle
+// carries the stress, also when more words follow (Log in met je naam)
+(log in)	,lOx||'In
+(log uit)	,lOx||'Wyt
+(meld aan)	,mElt||'a:n
+(meld af)	,mElt||'Af
+(sla op)	,sla:||'Op
+(sluit af)	,slWyt||'Af
+(stel in)	,stEl||'In
+(zet aan)	,zEt||'a:n
+(zet uit)	,zEt||'Wyt
+(vul in)	,v8l||'In
+
 
 // pronouns  (may have -zelf suffix)
 ik		%Ik
@@ -1519,6 +1532,8 @@ sabbel		$alt
 sabel		$alt
 sappel		$alt
 schakel		$alt
+(schakel in)	,sxa:k@l||'In   // after schakel: the later entry is found first
+(schakel uit)	,sxa:k@l||'Wyt
 scharminkel	$alt
 scharrel	$alt
 schimmel	$alt
